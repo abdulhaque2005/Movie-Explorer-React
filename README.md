@@ -1,16 +1,110 @@
-# React + Vite
+# 🎬 Movie Explorer Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive movie browsing website built using **HTML, CSS, and JavaScript**, powered by a Movies API. This project allows users to search, explore, and view details about movies in a clean and interactive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search movies by name
+* 🎥 Display popular and trending movies
+* 📄 View movie details (title, rating, overview, poster)
+* 📱 Fully responsive design
+* ⚡ Fast and dynamic API-based data fetching
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **HTML5** – Structure
+* **CSS3** – Styling & responsiveness
+* **JavaScript (Vanilla JS)** – Logic & API handling
+* **Movies API** – Data source (e.g., TMDB API)
+
+---
+
+## 📂 Project Structure
+
+```
+📁 movie-explorer
+ ┣ 📄 index.html
+ ┣ 📄 style.css
+ ┣ 📄 script.js
+ ┗ 📄 README.md
+```
+
+---
+
+## ⚙️ How It Works
+
+1. The website fetches movie data using a Movies API.
+2. JavaScript dynamically updates the UI.
+3. Users can search for movies using the search bar.
+4. Results are displayed with posters, ratings, and descriptions.
+
+---
+
+## 🔧 Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/movie-explorer.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd movie-explorer
+```
+
+3. Open `index.html` in your browser.
+
+---
+
+## 🔑 API Configuration
+
+If you are using an API like TMDB:
+
+* Get your API key from the official website
+* Replace it in your `script.js` file:
+
+```javascript
+const API_KEY = "your_api_key_here";
+```
+
+---
+
+## 📸 Screenshots
+
+(Add your project screenshots here)
+
+---
+
+## 🌟 Future Improvements
+
+* ⭐ Add watchlist feature
+* 🌙 Dark mode
+* 🎭 Filter by genres
+* 📊 Sorting options
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this project and improve it. Pull requests are welcome!
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+* Your Name
+* GitHub: https://github.com/your-username
+
+---
